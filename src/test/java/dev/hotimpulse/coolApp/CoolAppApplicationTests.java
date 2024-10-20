@@ -1,10 +1,10 @@
-package dev.danvega.runnerz;
+package dev.hotimpulse.coolApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RunnerzApplicationTests {
+class CoolAppApplicationTests {
 
 	@Test
 	void contextLoads() {
