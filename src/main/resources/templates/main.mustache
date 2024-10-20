@@ -9,14 +9,19 @@
 </head>
 <body>
     <div>
+        <span>List of messages</span>
         <form method="post">
             <input type="text" name="text" placeholder="Enter your message">
             <input type="text" name="tag" placeholder="Tag">
             <button type="submit">Add</button>
         </form>
+        <span>Filters</span>
+        <form method="post" action="filter">
+            <input type="text" name="filter">
+            <button type="submit">Find</button>
+        </form>
     </div>
 <div>List of messages</div>
-
     {{#messages}}
         <div>
             <b>{{id}}</b>
